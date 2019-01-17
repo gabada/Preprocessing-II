@@ -287,6 +287,11 @@ header h1 {
 .home .content-destination img {
   border-radius: 10px;
 }
+@media (max-width: 500px) {
+  .home .content-destination {
+    width: 90%;
+  }
+}
 .home .content-pick {
   padding-top: 30px;
   border-top: 2px dashed #C0C0C0;
@@ -297,6 +302,11 @@ header h1 {
   width: 30%;
   margin-bottom: 30px;
 }
+@media (max-width: 500px) {
+  .home .content-pick .destination {
+    width: 90%;
+  }
+}
 .home .content-pick button {
   background-color: #17A2B8;
   color: white;
@@ -306,10 +316,16 @@ header h1 {
   font-size: 1.5rem;
 }
 @media (max-width: 500px) {
+  .home .content-pick button {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
   .home .content-pick {
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
     width: 100%;
+    padding: 5rem;
   }
 }

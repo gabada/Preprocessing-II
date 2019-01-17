@@ -107,6 +107,9 @@ header {
     img {
       border-radius: 10px;
     }
+    @media @mobile {
+      width: 90%;
+    }
   }
 
   .content-pick {
@@ -118,10 +121,18 @@ header {
     .destination {
       width: 30%;
       margin-bottom: 30px;
+
+      @media @mobile {
+        width: 90%;
+      }
     }
 
     button {
       .button;
+
+      @media @mobile {
+        width: 100%;
+      }
     }
 
     @media @mobile {
@@ -129,6 +140,7 @@ header {
       align-items: center;
       justify-content: center;
       width: 100%;
+      padding: 5rem;
     }
   }
 
