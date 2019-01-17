@@ -203,12 +203,23 @@ header {
 header h1 {
   margin-bottom: 1rem;
 }
+@media (max-width: 500px) {
+  header h1 {
+    margin: 0 auto;
+  }
+}
 .separator {
   width: 100%;
   border-top: 2px dashed #C0C0C0;
 }
 .container .fun-bus-img {
   margin-bottom: 2rem;
+}
+@media (max-width: 500px) {
+  .container .fun-bus-img {
+    width: 90%;
+    margin-left: 2rem;
+  }
 }
 .container .top {
   border-bottom: 2px dashed silver;

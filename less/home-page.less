@@ -9,6 +9,11 @@ header {
   h1 {
     margin-bottom: 1rem;
   }
+  @media @mobile {
+    h1 {
+      margin: 0 auto;
+    }
+  }
 }
 
 .separator {
@@ -19,6 +24,12 @@ header {
 .container {
   .fun-bus-img {
     margin-bottom: 2rem;
+  }
+  @media @mobile {
+    .fun-bus-img {
+      width: 90%;
+      margin-left: 2rem;
+    }
   }
 
   .top {
