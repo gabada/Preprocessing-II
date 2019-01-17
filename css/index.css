@@ -315,6 +315,9 @@ header h1 {
   width: 20rem;
   font-size: 1.5rem;
 }
+.home .content-pick button:hover {
+  background-color: #0f6674;
+}
 @media (max-width: 500px) {
   .home .content-pick button {
     width: 100%;
