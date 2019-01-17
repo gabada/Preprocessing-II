@@ -202,6 +202,17 @@ header {
 header h1 {
   margin-bottom: 1rem;
 }
+.separator {
+  width: 100%;
+  border-top: 2px dashed silver;
+}
+.container .fun-bus-img {
+  margin-bottom: 2rem;
+}
+.container .top {
+  border-bottom: 2px dashed silver;
+  padding-bottom: 2rem;
+}
 .home .content-section {
   margin: 30px 0;
   display: flex;
