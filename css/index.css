@@ -265,6 +265,7 @@ header h1 {
   .home .content-section .img-content {
     width: 100%;
     margin-left: 2rem;
+    order: 1;
   }
 }
 .home .inverse-content {
@@ -303,4 +304,12 @@ header h1 {
   padding: 1rem;
   width: 20rem;
   font-size: 1.5rem;
+}
+@media (max-width: 500px) {
+  .home .content-pick {
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
 }

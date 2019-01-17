@@ -80,6 +80,7 @@ header {
       @media @mobile {
         width: 100%;
         margin-left: 2rem;
+        order: 1;
       }
     }
   }
@@ -121,6 +122,13 @@ header {
 
     button {
       .button;
+    }
+
+    @media @mobile {
+      flex-flow: column wrap;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
     }
   }
 
