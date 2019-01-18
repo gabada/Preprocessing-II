@@ -314,9 +314,11 @@ header h1 {
   padding: 1rem;
   width: 20rem;
   font-size: 1.5rem;
+  cursor: pointer;
 }
 .home .content-pick button:hover {
-  background-color: #0f6674;
+  background-color: #031619;
+  transition: 5s;
 }
 @media (max-width: 500px) {
   .home .content-pick button {
