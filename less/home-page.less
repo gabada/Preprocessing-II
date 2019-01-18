@@ -1,3 +1,50 @@
+header {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 20px auto;
+  justify-content: space-between;
+  align-content: center;
+  max-width: 800px;
+  width: 100%;
+  h1 {
+    margin-bottom: 1rem;
+  }
+  @media @mobile {
+    h1 {
+      margin: 0 auto;
+    }
+  }
+}
+
+.separator {
+  width: 100%;
+  border-top: 2px dashed @navigation-border;
+}
+
+.container {
+  .fun-bus-img {
+    margin-bottom: 2rem;
+
+    @media @mobile {
+      width: 90%;
+      margin-left: 2rem;
+    }
+  }
+
+  h2 {
+    padding-left: 2.5rem;
+  }
+
+  .top {
+    border-bottom: 2px dashed silver;
+    padding-bottom: 2rem;
+
+    @media @mobile {
+      padding-left: 2rem;
+    }
+  }
+}
+
 .home {
 
   .content-section {
@@ -6,11 +53,20 @@
     flex-wrap: wrap;
     justify-content: space-between;
 
-   
+    @media @mobile {
+      flex-flow: column wrap;
+    }
+
+
     
     .text-content {
       width: 48%;
       padding-right: 1%;
+
+      @media @mobile {
+        padding-left: 2rem;
+        width: 100%;
+      }
     }
 
     .img-content {
@@ -19,6 +75,12 @@
 
       img {
         border-radius: 10px;
+      }
+
+      @media @mobile {
+        width: 100%;
+        margin-left: 2rem;
+        order: 1;
       }
     }
   }
@@ -45,6 +107,9 @@
     img {
       border-radius: 10px;
     }
+    @media @mobile {
+      width: 90%;
+    }
   }
 
   .content-pick {
@@ -56,6 +121,27 @@
     .destination {
       width: 30%;
       margin-bottom: 30px;
+
+      @media @mobile {
+        width: 90%;
+      }
+    }
+
+    button {
+      .button(35%);
+
+      @media @mobile {
+        width: 100%;
+      }
+    }
+
+    @media @mobile {
+      flex-flow: column wrap;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding: 5rem;
     }
   }
+
 }// home
